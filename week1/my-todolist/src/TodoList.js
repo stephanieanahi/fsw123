@@ -20,3 +20,13 @@ return (
 
 };
 export default App;
+
+function NewList (props){
+  const list = props.text.map((text)=> <li key={index}>{text}</li>);
+  return <ul>{text}</ul>
+}
+
+ReactDOM.render(
+  <NewList text = {NewList} />
+  document.getElementById('root')1
+);
