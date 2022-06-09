@@ -1,13 +1,13 @@
-import Card from './Card.js'
+import Cardlist from './Cardlist.js'
 import './cards.css';
-import {Cards} from './Cards'
+import {Cards} from './Data'
 
 export default function App() {
   return (
     <div className="App">
        
     
-      < Card  Cards = {Cards} />
+      < Cardlist  cards = {Cards} />
     
     </div>
   );

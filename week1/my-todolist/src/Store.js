@@ -1,5 +1,5 @@
 
-export  const Todos = [
+export const todos = [
     {
         text:"go grocery shooping"
     },
@@ -11,5 +11,7 @@ export  const Todos = [
     },
     {
         text:"take car to get washed"
-    },
+    }
 ];
+
+

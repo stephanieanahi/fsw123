@@ -1,23 +1,24 @@
-function Card ({key, title, sub, description}){
+function Card ({ title, sub, description, bgC}){
    
 
-    return Card(
+    return (
         <div 
-        key={key}
         className = "container"
         style= {
             {
                 display:"flex",
                 justifyContent: "space-between",
-                width: "310px"
-
+                width: "310px",
+                flexDirection:"column",
+                alignItems:"center",
+                backgroundColor:bgC
             }
         }
     
     >
-        <h2>title 1{title}</h2>
-        <h3>sub{sub}</h3>
-        <h4>description{description}</h4>
+        <h2>{title}</h2>
+        <h3>{sub}</h3>
+        <h4>{description}</h4>
     </div> 
        );
 }
