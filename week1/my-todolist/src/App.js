@@ -1,5 +1,5 @@
 import './App.css';
-import TodoList from './Todolnpm stopist.js';
+import TodoList from './Todolist.js';
 import {todos} from './Store.js'
 export default function App() {
   return (

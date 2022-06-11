@@ -1,5 +1,5 @@
 import Todo from "./Todo"
-export default function TodoList(props){
+export default function Todolist(props){
 
     return(
         props.todos.map((item, index)=>{
