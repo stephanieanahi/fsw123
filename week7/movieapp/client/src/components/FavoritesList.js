@@ -3,7 +3,7 @@ import MovieList from "./MovieList";
 
 function FavoriteList({favourites, removeFavouriteMovie, RemoveFavourites}) {
     return (<div className='movie-container'>
-        <MovieListHeading heading='Favourites' />
+        <MovieListHeading heading='Favorites' />
         <div className='row'>
             <MovieList
                 movies={favourites}
