@@ -10,6 +10,7 @@ h1, p {
   margin:0 32px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+  font-size: 35px;
   
 }
 
@@ -51,3 +52,19 @@ html {
 }
 
 
+.row {
+  font-size: 35px;
+  color: darkblue;
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+
+.container-fluid {
+  text-align: center;
+  background-color: rgb(209, 160, 209);
+}
+
+.form-control {
+  background-color: rgb(199, 164, 231);
+}

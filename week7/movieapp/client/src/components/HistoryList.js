@@ -3,7 +3,7 @@ import MovieListHeading from "./MovieListHeading";
 
 function FavoriteList({history, clearHistory}) {
     return (<div className='movie-container'>
-        <MovieListHeading heading='history' />
+        <MovieListHeading heading='Movie History' />
         <div className='row'>
          {
             history.map((search, index)=>{
